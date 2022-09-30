@@ -12,14 +12,14 @@
 <body>
     <p>Number 1:<input type="text" id="number1Field" /></p>
     <p>Number 2:<input type="text" id="number2Field" /></p>
-    <input id="addButton" type="button" value="Add" />
-    <input id="subtractButton" type="button" value="Subtract" />
-    <input id="multiplyButton" type="button" value="Multiply" />
-    <input id="divideButton" type="button" value="Divide" />
+    <input id="addButton" type="button" value="Add" onclick="onAddBtnClicked()" />
+    <input id="subtractButton" type="button" value="Subtract"  onclick="onSubtractBtnClicked()" />
+    <input id="multiplyButton" type="button" value="Multiply" onclick="onMultiplyBtnClicked()" />
+    <input id="divideButton" type="button" value="Divide"  onclick="onDivideBtnClicked()" />
     <p>Answer:<input type="text" id="answerField" readonly /></p>
-    <p><input type="button" value="Refresh" onClick="refresh(this)"></p>
+    <p><input type="button" value="Refresh" onClick="refresh()"></p>
 
-    <script src="/index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
